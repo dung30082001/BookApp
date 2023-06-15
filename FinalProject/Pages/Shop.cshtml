@@ -1,0 +1,102 @@
+﻿@page
+@model FinalProject.Pages.ShopModel
+@{
+}
+<body>
+    <!--================ Start Header Menu Area =================-->
+    <header class="header_area">
+        <div class="main_menu">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+                        <ul class="nav navbar-nav menu_nav ml-auto mr-auto">
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!--================ End Header Menu Area =================-->
+    <!-- ================ category section start ================= -->
+    <section class="section-margin--small mb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-3 col-lg-4 col-md-5">
+                    <div class="sidebar-categories">
+                        <div class="head">Browse Categories</div>
+                        <ul class="main-categories">
+                            <li class="common-filter">
+                                <form action="" method="post">
+                                    <ul>
+                                        @foreach(var item in Model.CategoryList){
+                                        <li class="filter-list"><input class="pixel-radio" value="@item.Id" asp-for="cateId" type="radio" ><label for="men">@item.Name</label></li>
+                                        }
+                                        <input class="head" type="submit" value="Filter" /> 
+                                    </ul>
+                                </form>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-9 col-lg-8 col-md-7">
+                    <!-- Start Filter Bar -->
+                    <div class="filter-bar d-flex flex-wrap align-items-center">
+                        <div class="sorting">
+                            <select>
+                                <option value="1">Ascending</option>
+                                <option value="2">Descending</option>
+                            </select>
+                        </div>
+                        <div>
+                            <form method="post" asp-page-handler="Search">
+                            <div class="input-group filter-bar-search">
+                                    <input asp-for="Search" />
+                                <div class="input-group-append">
+                                        <input class="head" type="submit" value="Search" />
+                                </div>
+                            </div>
+                            </form>
+                        </div>
+                    </div>
+                    <!-- End Filter Bar -->
+                    <!-- Start Best Seller -->
+                    <section class="lattest-product-area pb-40 category-list">
+                        <div class="row">
+                            @foreach(var item in Model.BookList){
+                            <div class="col-md-6 col-lg-4">
+                                <div class="card text-center card-product">
+                                    <div class="card-product__img">
+                                            <img class="card-img" src="~/img/@item.Image" alt="">
+                                        <ul class="card-product__imgOverlay">
+                                                <li>
+                                                    <a asp-page="Details" asp-route-id="@item.Id"><i class="ti-heart"></i></a>
+                                </li>
+                                        </ul>
+                                    </div>
+                                    <div class="card-body">
+                                        <p>@item.Title</p>
+                                    </div>
+                                </div>
+                            </div>
+                            }
+                        </div>
+                    </section>
+                    <!-- End Best Seller -->
+                </div>
+                <script>
+                    function submitForm() {
+                        let form = document.getElementById("form_submit");
+                        form.submit();
+                    }
+                </script>
+            </div>
+        </div>
+    </section>
+    </body>
+

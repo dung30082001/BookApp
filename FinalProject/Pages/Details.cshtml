@@ -1,0 +1,63 @@
+﻿@page
+@model FinalProject.Pages.DetailsModel
+@{
+}
+<body>
+	<!--================ Start Header Menu Area =================-->
+	<header class="header_area">
+		<div class="main_menu">
+			<nav class="navbar navbar-expand-lg navbar-light">
+			</nav>
+		</div>
+	</header>
+	<!--================ End Header Menu Area =================-->
+	<!--================Single Product Area =================-->
+	<div class="product_image_area">
+		<div class="container">
+			<div class="row s_product_inner">
+				<div class="col-lg-6">
+					<div class="owl-carousel owl-theme s_Product_carousel">
+						<div class="single-prd-item">
+							<img class="card-img" src="~/img/@Model.book.Image" alt="">
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-5 offset-lg-1">
+					<div class="s_product_text">
+						<h3>@Model.book.Title</h3>
+						<ul class="list">
+							<li><a class="active" href="#"><span>Author</span> : @Model.bookD.Author</a></li>
+							<li><a href="#"><span>Availibility</span> : In Stock</a></li>
+						</ul>
+						<p>
+							@Model.bookD.Detail
+						</p>
+						<div class="product_count">
+							<a class="button primary-btn" href="@Model.book.Link">Read</a>
+						</div>
+						<form method="post" asp-page-handler="Search">
+							<div class="input-group filter-bar-search">
+								<input asp-for="Search" />
+								<input asp-for="currentId" value="@Model.bookD.BookId" hidden />
+								<div class="input-group-append">
+									<input class="head" type="submit" value="Comment" />
+								</div>
+							</div>
+						</form>
+						@if(Model.reviews!=null){
+							@foreach(var item in Model.reviews){
+								<p>
+									UserId<h6>@item.UserId</h6>
+									Information<h6>@item.Information</h6><br>
+								</p>							
+							}
+						}
+						<div class="product_count">
+							<a class="button primary-btn" asp-page="Shop">Home</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>

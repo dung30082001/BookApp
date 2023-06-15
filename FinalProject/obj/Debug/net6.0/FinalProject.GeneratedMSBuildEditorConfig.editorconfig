@@ -1,0 +1,140 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = FinalProject
+build_property.RootNamespace = FinalProject
+build_property.ProjectDir = C:\Users\beast\OneDrive\Desktop\FinalProject\FinalProject\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\beast\OneDrive\Desktop\FinalProject\FinalProject
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/beast/OneDrive/Desktop/FinalProject/FinalProject/Pages/Admin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/beast/OneDrive/Desktop/FinalProject/FinalProject/Pages/CRUDBookDetail/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ1JVREJvb2tEZXRhaWxcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/beast/OneDrive/Desktop/FinalProject/FinalProject/Pages/CRUDBookDetail/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ1JVREJvb2tEZXRhaWxcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/beast/OneDrive/Desktop/FinalProject/FinalProject/Pages/CRUDBookDetail/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ1JVREJvb2tEZXRhaWxcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/beast/OneDrive/Desktop/FinalProject/FinalProject/Pages/CRUDBookDetail/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ1JVREJvb2tEZXRhaWxcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/beast/OneDrive/Desktop/FinalProject/FinalProject/Pages/CRUDBookDetail/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ1JVREJvb2tEZXRhaWxcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/beast/OneDrive/Desktop/FinalProject/FinalProject/Pages/CRUDBook/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ1JVREJvb2tcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/beast/OneDrive/Desktop/FinalProject/FinalProject/Pages/CRUDBook/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ1JVREJvb2tcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/beast/OneDrive/Desktop/FinalProject/FinalProject/Pages/CRUDBook/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ1JVREJvb2tcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/beast/OneDrive/Desktop/FinalProject/FinalProject/Pages/CRUDBook/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ1JVREJvb2tcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/beast/OneDrive/Desktop/FinalProject/FinalProject/Pages/CRUDBook/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ1JVREJvb2tcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/beast/OneDrive/Desktop/FinalProject/FinalProject/Pages/CRUDCategory/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ1JVRENhdGVnb3J5XENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/beast/OneDrive/Desktop/FinalProject/FinalProject/Pages/CRUDCategory/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ1JVRENhdGVnb3J5XERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/beast/OneDrive/Desktop/FinalProject/FinalProject/Pages/CRUDCategory/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ1JVRENhdGVnb3J5XERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/beast/OneDrive/Desktop/FinalProject/FinalProject/Pages/CRUDCategory/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ1JVRENhdGVnb3J5XEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/beast/OneDrive/Desktop/FinalProject/FinalProject/Pages/CRUDCategory/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ1JVRENhdGVnb3J5XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/beast/OneDrive/Desktop/FinalProject/FinalProject/Pages/CRUDUser/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ1JVRFVzZXJcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/beast/OneDrive/Desktop/FinalProject/FinalProject/Pages/CRUDUser/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ1JVRFVzZXJcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/beast/OneDrive/Desktop/FinalProject/FinalProject/Pages/CRUDUser/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ1JVRFVzZXJcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/beast/OneDrive/Desktop/FinalProject/FinalProject/Pages/CRUDUser/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ1JVRFVzZXJcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/beast/OneDrive/Desktop/FinalProject/FinalProject/Pages/CRUDUser/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ1JVRFVzZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/beast/OneDrive/Desktop/FinalProject/FinalProject/Pages/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/beast/OneDrive/Desktop/FinalProject/FinalProject/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/beast/OneDrive/Desktop/FinalProject/FinalProject/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/beast/OneDrive/Desktop/FinalProject/FinalProject/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/beast/OneDrive/Desktop/FinalProject/FinalProject/Pages/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVnaXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/beast/OneDrive/Desktop/FinalProject/FinalProject/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/beast/OneDrive/Desktop/FinalProject/FinalProject/Pages/Shop.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hvcC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/beast/OneDrive/Desktop/FinalProject/FinalProject/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/beast/OneDrive/Desktop/FinalProject/FinalProject/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/beast/OneDrive/Desktop/FinalProject/FinalProject/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-srxpow6wk7
